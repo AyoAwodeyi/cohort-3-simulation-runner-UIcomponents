@@ -13,12 +13,14 @@
     "eslint-config-react-app": "^7.0.1",
     "webpack": "^4.29.6"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "json-server": "json-server --watch mazes.json --port 3000"
+}
+,
 
   "browserslist": {
     "production": [
