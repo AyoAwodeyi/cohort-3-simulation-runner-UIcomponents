@@ -38,7 +38,7 @@ function Grid({ data }) {
       case 3:
         return " rgb(187, 202, 187)"; // Path color (light green)
       case 4:
-        return "rgb(255, 157, 157)"; // End Goal (light red)
+        return "rgb(255, 157, 158)"; // End Goal (light red)
       case 5:
         return "green"; // Robot starting Position (dark green)
       default:
