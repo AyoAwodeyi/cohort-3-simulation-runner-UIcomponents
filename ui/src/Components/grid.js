@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Grid.css";
-import axios from "axios";
 
 function Grid({ data }) {
   const [mazeList, setMazeList] = useState([]);
@@ -14,8 +13,7 @@ function Grid({ data }) {
     [0, 1, 1, 1, 1, 4, 1, 0, 0],
     [0, 0, 0, 0, 1, 1, 1, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  ]); 
-  
+  ]);
 
   useEffect(() => {
     setMazeList(data);
@@ -26,6 +24,7 @@ function Grid({ data }) {
   useEffect(() => {
     setMaze(data.maze2.matrix);
   }, []);
+  
   console.log(maze);
 
   function getColor(cellValue) {
